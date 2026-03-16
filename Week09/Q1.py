@@ -49,14 +49,14 @@ def get_python_info():
         "platform":         sys.platform,
     }
     
-
-
-# TODO: Complete get_directory_info(path)
-#   Return a dict with keys: "path", "exists", "file_count", "is_directory"
-#   Use: os.path.abspath(), os.path.exists(),
-#        os.listdir() (count items), os.path.isdir()
 def get_directory_info(path):
-    pass
+    return{
+        "path":             os.path.abspath(),
+        "exists":           os.path.exists(path),
+        "file_count":       os.listdir(path) if os.path.exists(path) else 0,
+        "is_directory":     os.path.isdir(path),
+    }
+    
 
 
 # --- Main (provided) ---
