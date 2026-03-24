@@ -75,6 +75,7 @@ def count_by_severity():
         ).fetchall()
 
 
+
 def safe_query(query):
     conn = sqlite3.connect(DB_NAME) 
     try:

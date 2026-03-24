@@ -87,6 +87,7 @@ if __name__ == "__main__":
     print("\n--- Failed Attempts for 'admin' ---")
     display_attempts(get_failed_attempts("admin"))
 
+
     print("\n--- Failure Counts ---")
     counts = count_failures_per_user()
     if counts:
