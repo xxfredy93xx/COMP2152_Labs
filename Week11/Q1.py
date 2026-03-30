@@ -1,6 +1,6 @@
 # ============================================================
 #  WEEK 11 LAB — Q1: PORT SCANNER CLASS
-#  COMP2152 — [Your Name Here]
+#  COMP2152 — [Fredy Godoy]
 # ============================================================
 #
 #  You already know how to scan ports from Assignment 2.
